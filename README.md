@@ -2,7 +2,7 @@
 
 Welcome to **OpenPetCare**! 🐾
 
-Open Pet Tracker is an open-source project to help pet owners manage preventive care for their pets.
+Open Pet Care is an open-source project to help pet owners manage preventive care for their pets.
 
 It provides structured, trustworthy data on vaccine schedules, medications, and general pet health, along with reminders and human-readable guidance.
 
