@@ -18,11 +18,12 @@ spreadsheet = client.open("pet_data").sheet1
 
 # Form
 with st.form("pet_form", clear_on_submit=True):
+    min_date = datetime(2000, 1, 1)  # Set to January 1, 2000
     owner_name = st.text_input("Owner Name")
     owner_email = st.text_input("Owner Email")
     pet_name = st.text_input("Pet Name")
     species = st.selectbox("Species", ["Dog", "Cat"])
-    birthdate = st.date_input("Birthdate (approximate is fine)")
+    birthdate = st.date_input("Birthdate (approximate is fine)", value=datetime.today(), min_value=min_date)
 
     submitted = st.form_submit_button("Submit")
 
@@ -32,4 +33,5 @@ with st.form("pet_form", clear_on_submit=True):
         spreadsheet.append_row(row)
         st.success(f"Thanks {owner_name}, {pet_name}'s info has been saved!")
 
-#Run: streamlit run app/app.py
+# CD "C:\Users\hartm\OneDrive\Documents\open-pet-care"
+# streamlit run app/app.py
