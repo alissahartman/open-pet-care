@@ -1,0 +1,43 @@
+# --- Python & Streamlit project ignores ---
+
+# Streamlit secrets (private keys, API tokens, etc.)
+.streamlit/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.log
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Windows system files
+Thumbs.db
+desktop.ini
+
+# Jupyter checkpoints (if you use notebooks later)
+.ipynb_checkpoints/
+
+# Local testing data or temporary files
+*.tmp
+*.bak
+*.swp
+*.csv~
+*.xlsx~
+
+# Credentials or keys (just in case)
+*.json
+*.pem
+*.key
+
+# VS Code / IDE project settings
+.vscode/
+.idea/
+
+# Streamlit deployment cache
+.streamlit/config.toml
