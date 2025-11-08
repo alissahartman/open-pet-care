@@ -27,17 +27,19 @@ All the data is stored in CSV files and is easy to use in spreadsheets, apps, or
 |--------|---------------|---------|
 | `species` | Animal type | dog |
 | `vaccine_name` | Name of vaccine | Bordatella |
-| `category` | Core or non-core vaccine | core |
+| `vaccine_category` | Core or non-core vaccine | core |
 | `vaccination_stage` | Initial or revaccination | initial |
 | `administration_route` | How the vaccine is given | intranasal |
 | `age_min_weeks` | Minimum recommended age | 6 |
 | `age_max_weeks` | Maximum recommended age | 16 |
-| `booster_interval_min_weeks` | Minimum interval until first booster | 2 |
-| `booster_interval_max_weeks` | Maximum interval until first booster | 4 |
-| `booster_interval_years` | Years between boosters after the initial series | 3 |
+| `doses` | Number of doses | 1 |
+| `dose_interval_min_weeks` | Minimum interval until first booster | 2 |
+| `dose_interval_max_weeks` | Maximum interval until first booster | 4 |
+| `dose_interval_years` | Years between boosters after the initial series | 3 |
 | `recommended_frequency` | Human-readable summary of schedule | 2 doses, 2–4 weeks apart |
 | `disease_targeted` | Disease the vaccine protects against | Bordatella bronchiseptica |
 | `source` | Guideline or document the info came from | AAHA 2022 Canine Vaccination Guidelines |
+| `updated_on` | Timestamp of last update | 2025-11-07 00:00:00 |
 
 ---
 
