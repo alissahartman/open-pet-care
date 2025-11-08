@@ -1,6 +1,6 @@
-# Open Pet Care
+# 🐾 Open Pet Care 🐾
 
-Welcome to **Open Pet Care**! 🐾
+Welcome to **Open Pet Care**! 
 
 Open Pet Care is an open-source project to help pet owners manage preventive care for their pets.
 
